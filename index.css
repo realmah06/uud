@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container{
+  background-color: #fff;
+  width: 450px;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+.login-container .header{
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header img{
+  height: 100px;
+}
+.header h2{
+  font-family: cursive;
+  font-size: 30px;
+  color: darkgreen;
+}
+.form-group{
+  margin: 5px 5px 15px;
+}
+.form-group input{
+  width: 100%;
+}
+.form-group button{
+  padding: 10px 13px;
+  width: 101%;
+  border-radius: 5px;
+  border: none;
+  background-color: #194A51;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
